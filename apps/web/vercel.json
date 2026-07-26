@@ -1,0 +1,6 @@
+{
+  "buildCommand": "cd ../.. && npm ci && npm run build -w @slack-lite/shared && npm run build -w @slack-lite/web",
+  "installCommand": "cd ../.. && npm ci",
+  "framework": "nextjs",
+  "outputDirectory": ".next"
+}
