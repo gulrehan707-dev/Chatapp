@@ -102,3 +102,6 @@ Free tiers may sleep when idle; first WebSocket connect after sleep can take a f
 1. **Sessions / JWT**: Supabase issues JWT access tokens; the web app stores them in HTTP-only cookies via `@supabase/ssr`. The socket server validates the same JWT on handshake (JWKS or shared secret).
 2. **Authorization**: RLS in Postgres + server-side membership checks before broadcasting.
 3. **Presence**: In-memory map on a single server instance; multi-instance would need the Socket.io Redis adapter.
+
+
+KeMq5B*.FCjtuyB"""""""
